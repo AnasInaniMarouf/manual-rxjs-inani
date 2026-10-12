@@ -1,0 +1,94 @@
+* {
+    color: #FCF1D0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+}
+
+body {
+    background-image: url('../imgs/SistemaSolar.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 80%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+
+#tierra, #marte {
+    width: 60%;
+    border: 2px solid salmon;
+    border-radius: 15px;
+    background-color: #22396F;
+    text-align: center;
+}
+
+
+#velocidad {
+    display: grid;
+    width: 20%;
+    padding: 0% 2% 0% 2%;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.bVelocidad {
+    width: 80%;
+    padding: 3%;
+    margin: 10%;
+    font-size: large;
+    border: 2px solid #FCF1D0;
+    border-radius: 5px;
+    background-color: #22396F;
+    transition-duration: 250ms;
+}
+
+.bVelocidad:hover {
+    background-color: #0D1C42;
+    transition-duration: 500ms;
+}
+
+#bx1 {
+    grid-row: 1;
+    color: salmon;
+    border-color: salmon;
+}
+
+#bx10 {
+    grid-row: 2;
+}
+
+#bx100 {
+    grid-row: 3;
+}
+
+hr {
+  border: none;
+  width: 67%;
+  height: 2px;
+  background-color: salmon;
+}
+
+.tiempo {
+    padding: 2%;
+    margin: 5% 10% 5% 10%;
+    border: 2px dashed salmon;
+    border-radius: 15px;
+    font-size: xx-large;
+    background-color: #0D1C42;
+}
+
+footer {
+    
+}
